@@ -1,11 +1,28 @@
 使用前置配置
 
-首先在本地的环境变量中添加
 
+### 安装
+
+```
+git clone https://github.com/gaopengfei123123/qiniu_upload.git
+cd qiniu_upload/example
+go build -o upload main.go
+```
+
+### 环境配置
+
+首先在本地的环境变量中添加七牛的配置
+
+```bash
 export QINIU_AK=你的accessKey
 export QINIU_SK=你的secretKey
+```
 
-然后执行
+
+### 使用方法 
+
+执行
+
 ```
 ./upload --ctx=/Users/gpf/Documents/www/hugo-blog/content/images --key=images --bucket=hexo-blog'
 ```
