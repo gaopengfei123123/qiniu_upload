@@ -3,7 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"qiniu_upload"
+
+	"github.com/gaopengfei123123/qiniu_upload"
 )
 
 var ctx = flag.String("ctx", ".", "请输入上传文件目录, 默认当前文件")

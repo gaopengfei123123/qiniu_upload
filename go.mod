@@ -1,4 +1,4 @@
-module qiniu_upload
+module github.com/gaopengfei123123/qiniu_upload
 
 go 1.14
 
